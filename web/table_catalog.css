@@ -1,0 +1,153 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+th {
+    padding: 0 10px;
+}
+
+td {
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px;
+    background: white;
+}
+
+.th-inner {
+    position: absolute;
+    top: 0;
+    line-height: 1.5rem;
+    padding-left: 10px;
+    margin-left: -10px;
+    text-align: center;
+    border-left: 1px solid #bbb;
+    color: #FFFFFF;
+}
+
+.th-inner div {
+    margin-top: 0.75rem;
+}
+
+.header-row-bottom .th-inner {
+    top: 1.5rem;
+    font-size: 0.75rem;
+}
+
+.fixed-table-container {
+    padding-top: 3rem;
+    position: relative;
+    overflow-x: auto;
+    height: calc(100vh - 3rem);
+    min-width: 1000px;
+    background: #4a9fe9;
+}
+
+table {
+    color: #000000;
+}
+.fixed-table-container-inner {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.header-double-row .th-inner {
+    height: 3rem;
+}
+
+td {
+    vertical-align: top;
+}
+
+.inactive {
+    pointer-events: none;
+}
+
+.subheader td {
+    background: #d9edf7;
+}
+
+.subheader td:first-child {
+    text-align: right;
+}
+
+td {
+    padding: 0.5rem;
+    min-width: 2.75rem;
+}
+
+tr:nth-child(2n+1):not(.subheader) td {
+    background: #eaeaea;
+}
+
+tr:nth-child(2n):not(.subheader) td {
+    background: #ffffff;
+}
+
+.sql {
+    font-family: Courier;
+    max-width: 25rem;
+}
+.sql:hover {
+    cursor: help;
+    background: #ccc!important;
+}
+#sqlpopup {
+    position: absolute;
+    padding: 1rem;
+    max-width: 50%;
+    background: #ffffff;
+    border: 1px solid #999999;
+    text-align: left;
+    display: none;
+}
+#sqlpopup.sql:hover {
+    cursor: text;
+}
+.sqlref-schema {
+    color: red;
+}
+.sqlref-table {
+    color: blue;
+}
+.sqlref-colname {
+    color: green;
+}
+.sqlref-title {
+    width:100%;
+    text-align:center;
+}
+
+.sqldocs-tablename td {
+    font-weight: regular;
+    text-align: center;
+    font-size: 1.25rem;
+    background: #264292!important;
+    padding: 0.75rem 0;
+}
+
+.sqldocs-tablename td a:link {
+    color: #FFFFFF;
+}
+
+.sqldocs-tablename td a:visited {
+    color: #FFFFFF;
+}
+
+.sqldocs-section td {
+    background: #d9edf7!important;
+    text-align: center;
+}
+
+span.sqldocs-comment {
+    display: block;
+}

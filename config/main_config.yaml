@@ -1,0 +1,14 @@
+# folder or filename to scan
+input_path: ./example
+
+# list of the tables to look up
+tables:
+- example.simple_table
+- example.more_complex_table
+
+# specify the DB engine - currently "default" for any ANSI-compliant database, or "Redshift" for adding the Encoding column into the document
+db_engine: default
+
+# specify a github repo if you want to link the table titles in the document to the code files
+github_account: AlexYeskov
+github_repo: sqldoc

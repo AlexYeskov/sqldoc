@@ -1,0 +1,113 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="./table_catalog.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./sqlpopup.js"></script>
+</head>
+<body>
+    <div id="sqlpopup" class="sql"></div>
+    <div class="fixed-table-container">
+        <div class="fixed-table-container-inner">
+            <table>
+                <thead>
+                    <tr class="header-row-top">
+                        <th><div class="th-inner"></div></th>
+                        <th><div class="th-inner"><div>Column</div></div></th>
+                        <th><div class="th-inner"><div>Data type</div></div></th>
+                        <!-- <th><div class="th-inner"><div>Encoding</div></div></th> -->
+                        <th><div class="th-inner"><div>Comment</div></div></th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+<tr class="sqldocs-tablename" id="example.simple_table"><td colspan="5"><a href="https://github.com/AlexYeskov/sqldoc/tree/master/./example/01_simple_table.sql#L4" target="_blank">example.simple_table</a> </td></tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.simple_table"></td>
+<td class="sqldocs-colname">id</td>
+<td class="sqldocs-datatype">integer</td>
+<td class="sqldocs-comment">id!</td>
+</tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.simple_table"></td>
+<td class="sqldocs-colname">column_1</td>
+<td class="sqldocs-datatype">text</td>
+<td class="sqldocs-comment">comment for first column</td>
+</tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.simple_table"></td>
+<td class="sqldocs-colname">column_2</td>
+<td class="sqldocs-datatype">text</td>
+<td class="sqldocs-comment">comment for second column</td>
+</tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.simple_table"></td>
+<td class="sqldocs-colname">column_3</td>
+<td class="sqldocs-datatype">text</td>
+<td class="sqldocs-comment">comment for the last column</td>
+</tr>
+
+<tr class="sqldocs-tablename" id="example.more_complex_table"><td colspan="5"><a href="https://github.com/AlexYeskov/sqldoc/tree/master/./example/02_more_complex_table.sql#L3" target="_blank">example.more_complex_table</a> </td></tr>
+<tr class="sqldocs-section"><td colspan="5">IDs</td></tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.more_complex_table"></td>
+<td class="sqldocs-colname">id</td>
+<td class="sqldocs-datatype">int</td>
+<td class="sqldocs-comment">system ID</td>
+</tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.more_complex_table"></td>
+<td class="sqldocs-colname">code</td>
+<td class="sqldocs-datatype">text</td>
+<td class="sqldocs-comment">business ID</td>
+</tr>
+<tr class="sqldocs-section"><td colspan="5">dimensions</td></tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.more_complex_table"></td>
+<td class="sqldocs-colname">country</td>
+<td class="sqldocs-datatype">text</td>
+<td class="sqldocs-comment"></td>
+</tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.more_complex_table"></td>
+<td class="sqldocs-colname">city</td>
+<td class="sqldocs-datatype">text</td>
+<td class="sqldocs-comment"></td>
+</tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.more_complex_table"></td>
+<td class="sqldocs-colname">neighborhood</td>
+<td class="sqldocs-datatype">text</td>
+<td class="sqldocs-comment"></td>
+</tr>
+<tr class="sqldocs-section"><td colspan="5">details</td></tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.more_complex_table"></td>
+<td class="sqldocs-colname">full_name</td>
+<td class="sqldocs-datatype">text</td>
+<td class="sqldocs-comment"></td>
+</tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.more_complex_table"></td>
+<td class="sqldocs-colname">email</td>
+<td class="sqldocs-datatype">text</td>
+<td class="sqldocs-comment"></td>
+</tr>
+<tr class="sqldocs-section"><td colspan="5">measures</td></tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.more_complex_table"></td>
+<td class="sqldocs-colname">revenue_total</td>
+<td class="sqldocs-datatype">numeric(10,2)</td>
+<td class="sqldocs-comment">lifetime revenue</td>
+</tr>
+<tr>
+<td class="sqldocs-select"><input type="checkbox" name="example.more_complex_table"></td>
+<td class="sqldocs-colname">revenue_monthly</td>
+<td class="sqldocs-datatype">numeric(10,2)</td>
+<td class="sqldocs-comment">average monthly revenue over the entire subscription period</td>
+</tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
